@@ -3,10 +3,10 @@
 ## Overview ##
 >The goal of this project was to use my skills of >HTML, CSS, and JavaScript to create a game that >required manipulation of DOM. I chose to make my variation of Hangman. The theme or topic words are >summer related activities. 
 
-*Project:
-*Trello Board:
-*GitHub: (https://github.com/toyaw/Hangman1) 
-*Netlify Drop: 
+* Project:
+* Trello Board:
+* GitHub: (https://github.com/toyaw/Hangman1) 
+* Netlify Drop: 
 
 ### How to Play ###
 * You must guess a secret word: Theme "Summer Activity"
@@ -29,5 +29,5 @@
 * Show the score for player 1 and 2
 * Show the image of the hangman as the player guesses incorrectly. 
 
-####### Wire Frame of Hangman Link #######
-![Wireframe](/Users/toyawilliams/Desktop/imgproject/WireFrame.png)
+###### Wire Frame of Hangman Link ######
+* ![Wireframe](/Users/toyawilliams/Desktop/imgproject/WireFrame.png)
