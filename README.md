@@ -1,8 +1,8 @@
 # Hangman Game for SEI #
-**Project:
-**Trello Board:
-**GitHub: (https://github.com/toyaw/Hangman1) - automatic!
-[GitHub] (http://github.com)
+*Project:
+*Trello Board:
+*GitHub: (https://github.com/toyaw/Hangman1) 
+*Netlify Drop: 
 
 ## Overview ##
 >The goal of this project was to use my skills of >HTML, CSS, and JavaScript to create a game that >required manipulation of DOM. I chose to make my variation of Hangman. The theme or topic words are >summer related activities. 
@@ -14,7 +14,7 @@
 * letters for each word.
 * The player must chose one letter per guess to guess * the secret word.
 * Only one guess per letter guess.
-* The player will have 6 guesses total to win the * round. 
+* The player will have 6 guesses total to win the  * round. 
 * If the player has guessed 6 time and still not guessed the secret word they lose the game 
 
 #### Technologies Used ####
