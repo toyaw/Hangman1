@@ -1,13 +1,13 @@
-# Hangman Game for SEI
+# Hangman Game for SEI #
 **Project:
 **Trello Board:
-**GitHub: https://github.com/toyaw/Hangman1!
+**GitHub: (https://github.com/toyaw/Hangman1) - automatic!
 [GitHub] (http://github.com)
 
-##Overview
+## Overview ##
 >The goal of this project was to use my skills of >HTML, CSS, and JavaScript to create a game that >required manipulation of DOM. I chose to make my variation of Hangman. The theme or topic words are >summer related activities. 
 
-### How to Play
+### How to Play ###
 * You must guess a secret word: Theme "Summer Activity"
 * The secret word is hidden
 * The number of dashes will represent the number of 
@@ -17,16 +17,16 @@
 * The player will have 6 guesses total to win the * round. 
 * If the player has guessed 6 time and still not guessed the secret word they lose the game 
 
-### Technologies Used
-> Languages: HTML, CSS3, JAVASCRIPT
-> Libriaries: jQuery
+#### Technologies Used ####
+>Languages: HTML, CSS3, JAVASCRIPT
+>Libriaries: jQuery
 
 
-#### Future Development/ Improvements
+##### Future Development/ Improvements ######
 **Strech Goals**
 * Add a second player
 * Show the score for player 1 and 2
 * Show the image of the hangman as the player guesses incorrectly. 
 
-##### Wire Frame of Hangman Link
-![Wireframe] (![GitHub Logo] (/Users/toyawilliams/Desktop/imgproject/WireFrame.png))
+####### Wire Frame of Hangman Link #######
+![Wireframe](/Users/toyawilliams/Desktop/imgproject/WireFrame.png)
