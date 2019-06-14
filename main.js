@@ -15,7 +15,8 @@ var lives;      // lives
 var counter;    //count correct guess
 var blanks;     // spaces in the letters
 
-
+//The instructions for Get elements
+var  
 
 
 
