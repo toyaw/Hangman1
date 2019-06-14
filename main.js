@@ -16,7 +16,10 @@ var counter;    //count correct guess
 var blanks;     // spaces in the letters
 
 //The instructions for Get elements
-var  
+var showlives = document.getElementById("lives");
+var showTheme = document.getElementById("theme"); 
+var showGuess = document.getElementById("Guess"); 
+var showGuesses = document.getElementById("Guesses");  
 
 
 
