@@ -49,4 +49,10 @@ window.onload = function () {
             catagoryName.innerHTML = "Winter Activies";
         }
     }
+    //guesses ul
+    result = function () {
+        wordPlaceholder = document.getElementById('wait');
+        correctWord = document.createElement('ul');
+        
+    }
 }
