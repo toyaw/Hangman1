@@ -21,6 +21,22 @@ var showTheme = document.getElementById("theme");
 var showGuess = document.getElementById("Guess"); 
 var showGuesses = document.getElementById("Guesses");  
 
+// ul for alphabet buttons
+var buttons = function () {
+buttons=document.getElementById('buttons');
+letters = document.createElement('ul')
 
+//settting the length for alpha
+for (var i = 0; i< alphabet.length; i ++) {
+  letters.id = 'alphabet';
+  list = document.createElement('li');
+  list.id = 'letter';
+  list.innerHTML = alphabet[i];
+  check();
+  buttons.appendChild(letters);
+  letters.appendChild(list;) 
 
+}
+
+}
 }
