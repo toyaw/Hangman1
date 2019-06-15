@@ -8,7 +8,7 @@ window.onload = function () {
     var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
     var themes;    //Activites
-    var secretWord;  //choosen word
+    var secretWord;  //word
     var guess;        //guess
     var guesses = []; // stored guesses
     var chances;      // chances
@@ -43,10 +43,10 @@ window.onload = function () {
     //themes
     var selectTheme = function () {
         if (secretWord === themes(0)) {
-            catagoryName.innerHTML = "Summer Activies";
+            themes.innerHTML = "Summer Activies";
 
-        } else if (secretWord === categories[]) {
-            catagoryName.innerHTML = "Winter Activies";
+        } else if (secretWord === categories[0]) {
+            themes.innerHTML = "Winter Activies";
         }
     }
     //guesses ul
@@ -54,11 +54,11 @@ window.onload = function () {
         wordPlaceholder = document.getElementById('wait');
         correctWord = document.createElement('ul');
         for (let i = 0; 1 < word.length; i++) {
-            correctWord.setAtrribute('id', 'my-word');
+            correctWord.setAtrribute('id', 'guesses');
             guess = document.createElement('li');
             if (word[i] === "-") {
                 guess.innerHTML = "-";
-                space = 1;
+                blanks = 1;
             } else {
                 guess.innerHTML = "-";
             }
@@ -70,12 +70,12 @@ window.onload = function () {
     //show chances
     comments = function () {
         showChances.innerHTML = "You have " + chances + " chances";
-        if (lives < 1) {
-            showLives.innerHTML = "Game Over";
+        if (chances < 1) {
+            showchances.innerHTML = "Game Over";
         }
         for (var i = 0; i < geusses.length; i++) {
             if (counter + space === geusses.length) {
-                showLives.innerHTML = "You Win!";
+                showChances.innerHTML = "You Win!";
             }
 
         }
@@ -95,9 +95,8 @@ check = function () {
       }
       var j = (word.indexOf(geuss));
       if (j === -1) {
-        lives -= 1;
+        chances -= 1;
         comments();
-        animate();
       } else {
         comments();
       }
@@ -107,10 +106,9 @@ check = function () {
     
   // Play
   play = function () {
-    categories = [
-        ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
-        ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
-        ["manchester", "milan", "madrid", "amsterdam", "prague"]
+    themes = [
+        ["cookout", "water ballon", "park", "beach", "swimming", "kite", "kickball"],
+        ["snowballs", "skiing", "ice skating", "ice fishing", "sledding"],
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -120,13 +118,12 @@ check = function () {
     buttons();
 
     geusses = [ ];
-    lives = 10;
+    chances = 10;
     counter = 0;
     space = 0;
     result();
     comments();
-    selectCat();
-    canvas();
+    secretWord();
   }
 
   play();
@@ -143,7 +140,7 @@ check = function () {
    // Reset
 
   document.getElementById('reset').onclick = function() {
-    correct.parentNode.removeChild(correct);
+    correct.parentNode.removeChild(correctWord);
     letters.parentNode.removeChild(letters);
     showClue.innerHTML = "";
     context.clearRect(0, 0, 400, 400);
