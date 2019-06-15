@@ -3,8 +3,8 @@
 ## Overview ##
 >The goal of this project was to use my skills of >HTML, CSS, and JavaScript to create a game that >required manipulation of DOM. I chose to make my variation of Hangman. The theme or topic words are >summer related activities. 
 
-* Project: Hangmang Game
-* Trello Board:
+* Project: Hangman Game
+* Trello Board:(https://trello.com/b/uKkHqN5n/hangman)
 * GitHub: (https://github.com/toyaw/Hangman1) 
 * Netlify Drop: 
 
