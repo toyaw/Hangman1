@@ -18,3 +18,6 @@ Words.List[0] = "fishing";
 Words.List[0] = "road trips";
 Words.List[0] = "vacation";
 Words.List[0] = "water sports";
+
+
+words.length = words.List.length;
