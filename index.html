@@ -10,33 +10,37 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="style.css"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script>window.onload = draw;</script>
 </head>
 
-
-
-<body>
-    <!--Added header with opening paragraph. -->
-    <div class="wrapper">
-        <h1>Hangman</h1>
-        <p>The hidden SECRET word theme: SUMMER ACTIVITIES</p>
-        <p>Chose the alphabet below to guess the secret word.</p>
-        <p>You have 6 chances to guess the word</p>
-        <p>Good Luck!</p>
-        <div class="wrapper">
-            <!--Adding buttons to house letters.-->
-            <div id="buttons"> </div>
-            <p id="themes"></p>
-            <div id="wait"></div>
-            <div id "secretword"></div>
-            <p id="lives"> </p>
-
-            <div class="container">
-                <buttons id="reset">Play again!</buttons>
-            </div>
-
-        </div>
-
-        <script defer src="main.js"></script>
+</body>
+<H1>Hangman</H1>
+<div id="introPage">
+        <div id="introText">
+            <p>Welcome to online hangman!</p>
+            <p>Select single player to begin!</p>
+            <div id="buttonContainer">
+                <div id="sp" onclick="sp()">Single player</div>
+            
+</body>
+  <div id="container">
+      <div id="header">
+          <p>
+              You have <span id="lives">4</span> Lives Left.
+              <br>
+              There are span id="numLetters">0</p>span Letters In This Word.
+          </p>
+          <h1 id="WORD">------------</h1>
+      </div>
+      <div> id id= "letters">
+          <a id="a">A</a>
+      </div>
+  </div>
+  <script type="text/javascript" src="wordbank.js" ></script>
+          
+        
+    <script defer src="main.js"></script>
 </body>
 
 </html>
