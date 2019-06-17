@@ -30,4 +30,4 @@
 * Show the image of the hangman as the player guesses incorrectly. 
 
 ###### Wire Frame of Hangman Link ######
-  ![Wireframe](https://imgur.com/wjv1ORO)
+  ![Wireframe](https://i.imgur.com/wjv1ORO.jpg)
