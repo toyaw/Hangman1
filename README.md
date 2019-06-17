@@ -31,7 +31,11 @@
 
 ###### Wire Frame of Hangman Link ######
 <<<<<<< HEAD
+<<<<<<< HEAD
  [Wireframe]https://imgur.com/wjv1ORO
 =======
   ![Wireframe]https://github.com/toyaw/Hangman1/blob/master/images/WireFrame.png
 >>>>>>> a1e620b467a73c0932cb3342342e67ae01cbeb1e
+=======
+  ![Wireframe](https://i.imgur.com/wjv1ORO.jpg)
+>>>>>>> 1b3513c452b153f2b55c45da7b29662357cf860b
