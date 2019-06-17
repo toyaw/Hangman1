@@ -8,109 +8,205 @@ $(function(){
 );
 
 $(function(){
-    $("#a").click(function(event){
+    $("#b").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("b");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#c").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("c");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#d").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("d");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#e").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("e");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#f").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("f");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#g").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("g");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#h").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("h");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#i").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("i");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#j").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("j");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#k").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("k");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#l").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("l");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#m").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("m");
 
     });
 }
 );
 $(function(){
-    $("#a").click(function(event){
+    $("#n").click(function(event){
         event.preventDefault();
-        Main.UpdateLetter("a");
+        Main.UpdateLetter("n");
 
     });
 }
 );
+$(function(){
+    $("#o").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("o");
+
+    });
+}
+);
+$(function(){
+    $("#p").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("p");
+
+    });
+}
+);$(function(){
+    $("#q").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("q");
+
+    });
+}
+);
+$(function(){
+    $("#r").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("r");
+
+    });
+}
+);
+$(function(){
+    $("#s").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("s");
+
+    });
+}
+);
+$(function(){
+    $("#t").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("t");
+
+    });
+}
+);
+$(function(){
+    $("#u").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("u");
+
+    });
+}
+);
+$(function(){
+    $("#v").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("v");
+
+    });
+}
+);
+$(function(){
+    $("#w").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("w");
+
+    });
+}
+);
+$(function(){
+    $("#x").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("x");
+
+    });
+}
+);
+$(function(){
+    $("#y").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("y");
+
+    });
+}
+);
+$(function(){
+    $("#z").click(function(event){
+        event.preventDefault();
+        Main.UpdateLetter("z");
+
+    });
+}
+);
+
 
 
 
