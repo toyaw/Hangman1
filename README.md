@@ -6,7 +6,7 @@
 * Project: Hangman Game
 * Trello Board:(https://trello.com/b/uKkHqN5n/hangman)
 * GitHub: (https://github.com/toyaw/Hangman1) 
-* Netlify Drop: 
+* Netlify Drop:https://epic-ptolemy-c384d4.netlify.com 
 
 ### How to Play ###
 * You must guess a secret word: Theme "Summer Activity"
@@ -30,4 +30,4 @@
 * Show the image of the hangman as the player guesses incorrectly. 
 
 ###### Wire Frame of Hangman Link ######
-* ![Wireframe](/Users/toyawilliams/Desktop/imgproject/WireFrame.png)
+ *![Wireframe]/Users/toyawilliams/ga-sei/Hangman1/images/WireFrame.png
