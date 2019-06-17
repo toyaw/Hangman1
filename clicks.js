@@ -1,5 +1,5 @@
 $(function(){
-    $("#a").click(function(event){
+    $("#a").on("click", function(event){
         event.preventDefault();
         Main.UpdateLetter("a");
 

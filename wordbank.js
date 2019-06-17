@@ -1,23 +1,25 @@
-Words.List[0] = "cookout";
-Words.List[0] = "water ballon";
-Words.List[0] = "park";
-Words.List[0] = "ice cream";
-Words.List[0] = "bubbles";
-Words.List[0] = "kite";
-Words.List[0] = "kickball";
-Words.List[0] = "swimming";
-Words.List[0] = "gardening";
-Words.List[0] = "water park";
-Words.List[0] = "golf";
-Words.List[0] = "sandcastle";
-Words.List[0] = "zoo";
-Words.List[0] = "drive in";
-Words.List[0] = "beach";
-Words.List[0] = "tubing";
-Words.List[0] = "fishing";
-Words.List[0] = "road trips";
-Words.List[0] = "vacation";
-Words.List[0] = "water sports";
+Main.Word.List[0] = "cookout";
+Main.Word.List[1] = "water ballon";
+Main.Word.List[2] = "park";
+Main.Word.List[3] = "ice cream";
+Main.Word.List[4] = "bubbles";
+Main.Word.List[5] = "kite";
+Main.Word.List[6] = "kickball";
+Main.Word.List[7] = "swimming";
+Main.Word.List[8] = "gardening";
+Main.Word.List[9] = "water park";
+Main.Word.List[10] = "golf";
+Main.Word.List[11] = "sandcastle";
+Main.Word.List[12] = "zoo";
+Main.Word.List[13] = "drive in";
+Main.Word.List[14] = "beach";
+Main.Word.List[15] = "tubing";
+Main.Word.List[16] = "fishing";
+Main.Word.List[17] = "road trips";
+Main.Word.List[18] = "vacation";
+Main.Word.List[19] = "water sports";
 
 
-Words.length = Words.List.length;
+Main.Word.length = Words.List.length;
+words = []
+
