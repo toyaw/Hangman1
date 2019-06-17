@@ -30,4 +30,4 @@
 * Show the image of the hangman as the player guesses incorrectly. 
 
 ###### Wire Frame of Hangman Link ######
- *![Wireframe]/Users/toyawilliams/ga-sei/Hangman1/images/WireFrame.png
+ ![Wireframe]/Users/toyawilliams/ga-sei/Hangman1/images/WireFrame.png
