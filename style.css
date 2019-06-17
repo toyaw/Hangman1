@@ -17,3 +17,11 @@ html, body {
 
 }
 
+#gameContent{
+  margin: auto;
+  height: 400px;
+  width: 800px;
+  background-color:#3461db;
+  position: relative;
+  overflow: hidden;
+}
