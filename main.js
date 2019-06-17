@@ -31,3 +31,10 @@ Main.SetUnderline = function(){
   document.getElementById("WORD").innerHTML = Main.WordU;
   document.getElementById("numLetters").innerHTML = Main.Word.length;
 }
+Main.UpdateLetter = function(letter) {
+  Main.Changes = 0;
+  for(i = 0; i<Main.Word.length; i ++) {
+    Main.wordArray[i] = Main.Word.charAt(i);
+    if(Main.Word.charAt(i) == letter)
+  }
+}
