@@ -5,8 +5,8 @@ $(document).ready(function () {
     alert("Good Luck!");
 });
 Main = {}
-Main.wordArray = [];
-Main.wordArray = [];
+Main.WordArray = [];
+Main.WordArray = [];
 
 Main.Lives = 4;
 Main.NumInWordBank = Words.Length;
@@ -24,17 +24,32 @@ Main.Pullword = function(){
 Main.SetUnderline = function(){
   Main.Pullword();
   for(i=0; i<Main.Word.length; i++){
-    Main.wordArray[i] = Main.Word.charAt(i);
-    Main.wordArray[i] = "-";
+    Main.WordArray[i] = Main.Word.charAt(i);
+    Main.WordArray[i] = "-";
   } 
-  Main.WordU = Main.wordArray.join("");
+  Main.WordU = Main.WordArray.join("");
   document.getElementById("WORD").innerHTML = Main.WordU;
   document.getElementById("numLetters").innerHTML = Main.Word.length;
 }
 Main.UpdateLetter = function(letter) {
   Main.Changes = 0;
   for(i = 0; i<Main.Word.length; i ++) {
-    Main.wordArray[i] = Main.Word.charAt(i);
-    if(Main.Word.charAt(i) == letter)
+    Main.WordArray[i] = Main.Word.charAt(i);
+    if(Main.Word.charAt(i) == letter){
+      Main.WordArray[i] == letter;
+      Main.Changes += 1;
+    }
+  }
+  if(Main.Changes < 1){
+    Main.Lives -=1;
+    document.getElementById("Lives").innerHTML = Main.Lives;
+  }
+  Main.WordU = Main.WordArray.join("");
+  document.getElementById("WORD").innerHTML = Main.WordU;
+  Main.Word1 = Main.WordArray.join("");
+  Main.Words = Main.wordArray.join("");
+  if(Main.Word1 == Main.Words2){
+alert("You Won! Loading a New Word");
+window.location.reload();
   }
 }
