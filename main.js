@@ -36,8 +36,10 @@ Main.UpdateLetter = function(letter) {
   for(i = 0; i<Main.Word.length; i ++) {
     Main.WordArray[i] = Main.Word.charAt(i);
     if(Main.Word.charAt(i) == letter){
-      Main.WordArray[i] == letter;
+      Main.WordArray[i] = letter;
       Main.Changes += 1;
+      Main.WordU = Main.WordArray.join("");
+      document.getElementById("WORD").innerHTML = Main.WordU;
     }
   }
   if(Main.Changes < 1){
@@ -52,4 +54,12 @@ Main.UpdateLetter = function(letter) {
 alert("You Won! Loading a New Word");
 window.location.reload();
   }
+
+  if(Main.Lives < 1) {
+    document.getElementById("WORD").innerHTML == Main.Word1;
+    alert("You Have Run Out of Lives, Please Try Again");
+    window.location.reload();
+  }
 }
+Main.Pullword();
+Main.SetUnderline();
