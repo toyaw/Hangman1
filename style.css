@@ -75,4 +75,25 @@ text-align: center;
   margin-top: 20px;
   margin-left: 150px;
 }
+#picHolder img{
+  position: relative;
+}
+#answer{
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 35px;
+  color: whitesmoke;
+}
+
+.pattern{
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  padding-top: 5px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  float: left;
+}
 
