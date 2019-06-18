@@ -40,8 +40,24 @@ while (lettersRemaining > 0) {
     // Exit the game loop
     break;
     } else if (guess.length !== 1) {
-    alert("Please enter a single letter.");
+    alert("Enter a single letter.");
     } else {
     // Update the game state with the guess
-
+    for (let j = 0; j < word.length; j++) {
+      if (word[j] === guess) {
+          answerArray[j] = guess; lettersRemaining--;
 }
+    }
+  }
+  // game over
+}
+//snswer shown and congratulations to player
+alert(answerArray.join(" "));
+alert("Good job! The answer was " + word);
+// Write your functions here
+var word = pickWord();
+var answerArray = setupAnswerArray(word);
+var lettersRemaining = word.length;
+var pickWord = function () {
+// Return a random word
+};
