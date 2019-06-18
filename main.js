@@ -30,3 +30,18 @@ for (let i = 0; i < word.length; i++) {
 
 let lettersRemaining = word.length;
 
+// repeating the game
+// the player see progress 
+while (lettersRemaining > 0) {
+
+  //player guess
+  let guess = prompt(Guess the letter, or click Cancel to stop playing.");
+  if (guess === null) {
+    // Exit the game loop
+    break;
+    } else if (guess.length !== 1) {
+    alert("Please enter a single letter.");
+    } else {
+    // Update the game state with the guess
+
+}
