@@ -1,0 +1,33 @@
+{
+    "wordbank": [
+        {
+            "word": "cookout",
+            "clue": "back yard"
+        },
+    
+    {
+		"word":"water ballon",
+		"clue":"wet ball"
+	},
+    {
+		"word":"kickball",
+		"clue":"not soccer"
+	},
+    {
+		"word":"gardening",
+		"clue":"flowers"
+	},
+    {
+		"word":"water park",
+		"clue":"slides on water"
+	},
+    {
+		"word":"swimming",
+		"clue":"backward or forward"
+	},
+    {
+		"word":"road trips",
+		"clue":"route 66"
+	}     
+]
+}
