@@ -51,13 +51,27 @@ while (lettersRemaining > 0) {
   }
   // game over
 }
-//snswer shown and congratulations to player
+//answer shown and congratulations to player
 alert(answerArray.join(" "));
-alert("Good job! The answer was " + word);
+alert("Great job! The answer was " + word);
 // Write your functions here
-var word = pickWord();
-var answerArray = setupAnswerArray(word);
-var lettersRemaining = word.length;
-var pickWord = function () {
+let word = pickWord();
+let answerArray = setupAnswerArray(word);
+let lettersRemaining = word.length;
+let pickWord = function () {
 // Return a random word
 };
+
+let setupAnswerArray = function (word) {
+  // Return the answer 
+  };
+  let showPlayerProgress = functin (answerArray)
+  {
+  //shows the player their progress
+  };
+  let getGuess = function () {
+  // Use prompt to get a guess
+  };
+  let updateGameState = function (guess, word, answerArray) {
+  // shows how many times the guess appears in the word so lettersRemaining can be updated
+  };
