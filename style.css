@@ -53,24 +53,24 @@ text-align: center;
 .button:hover{
   background-color: lightcoral;
 }
-
+// this area will hold blank spaces
 #wordHolder{
   margin-left: 150px;
   margin-top: 50px;
 }
-
+//this will show current clue
 #clueHolder{
   margin-left: 150px;
   margin-top: 130px;
 }
-
+//image of hangman
 #picHolder{
   margin-left: 30px;
   width: 75px;
   float: left;
   overflow: hidden;
 }
-
+// show letters that has been guessed
 #guesses{
   margin-top: 20px;
   margin-left: 150px;
@@ -78,13 +78,14 @@ text-align: center;
 #picHolder img{
   position: relative;
 }
+//will inform player if win or lose
 #answer{
   margin-top: 20px;
   margin-left: 150px;
   font-size: 35px;
   color: whitesmoke;
 }
-
+//where letters displayed
 .pattern{
   background-color: white;
   text-align: center;
@@ -96,6 +97,7 @@ text-align: center;
   margin-right: 10px;
   float: left;
 }
+//player has finished all the words
 #message{
   color: black;
   font-size: 40px;
@@ -104,6 +106,7 @@ text-align: center;
   margin: auto;
   margin-top: 100px;
 }
+//tester
 #fake{
   position: absolute;
   top: 0px;
