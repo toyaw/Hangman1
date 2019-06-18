@@ -54,3 +54,25 @@ text-align: center;
   background-color: lightcoral;
 }
 
+#wordHolder{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#clueHolder{
+  margin-left: 150px;
+  margin-top: 130px;
+}
+
+#picHolder{
+  margin-left: 30px;
+  width: 75px;
+  float: left;
+  overflow: hidden;
+}
+
+#guesses{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+

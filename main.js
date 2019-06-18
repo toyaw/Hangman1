@@ -3,6 +3,7 @@ $(document).ready(function () {
 });
 let currentWord;
 let currentClue;
+//this trach the wrong answer entered
 let wrongAnswerCount;
 //array for question bank
 let questionBank=new Array;
@@ -10,3 +11,5 @@ let questionBank=new Array;
 let wordArray=new Array;
 //this will contain all the previous words guessed by player
 let previousGuesses=new Array;
+
+

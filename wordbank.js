@@ -1,4 +1,6 @@
-Main.Word.List[0] = "cookout";
+{"list":[ 
+    {
+        "word:" "cookout",
 Main.Word.List[1] = "water ballon";
 Main.Word.List[2] = "park";
 Main.Word.List[3] = "ice cream";
@@ -18,8 +20,7 @@ Main.Word.List[16] = "fishing";
 Main.Word.List[17] = "road trips";
 Main.Word.List[18] = "vacation";
 Main.Word.List[19] = "water sports";
+]
+}
 
-
-Main.Word.length = Words.List.length;
-words = []
 
