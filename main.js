@@ -20,4 +20,13 @@ let words = [
 "bubbles"
 ];
 
-let word = words[Math.floor(math.random)]
+// pick a random word
+let word = words[Math.floor(math.random() * words.length)];
+
+// show the answer
+for (let i = 0; i < word.length; i++) {
+  answerArray[i] = "-";
+}
+
+let lettersRemaining = word.length;
+
