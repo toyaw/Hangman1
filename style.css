@@ -6,16 +6,7 @@ html, body {
   padding: 0;
 }
 
-#topLine{
-  color: whitesmoke;
-  height: 50px;
-  margin: auto;
-  font-size: 40px;
-  margin-top:50px;
-  width: 800px;
-  border-bottom-color: aliceblue 2px;
 
-}
 
 #gameContent{
   margin: auto;
@@ -26,89 +17,5 @@ html, body {
   overflow: hidden;
 }
 
-.spacer{height: 30px;
 
-}
 
-.button{font-size: 20px;
-color: whitesmoke;
-width: 100px;
-margin: auto;
-cursor: pointer;
-border: solid 2px white;
-border-radius: 4px;
-text-align: center;
-}
-#replay{
-  margin-left: 0px;
-}
-
-#gameTitle{
-  color: whitesmoke;
-  margin-top: 100px;
-  font-size: 40px;
-  text-align: center;
-}
-
-.button:hover{
-  background-color: lightcoral;
-}
-// this area will hold blank spaces
-#wordHolder{
-  margin-left: 150px;
-  margin-top: 50px;
-}
-//this will show current clue
-#clueHolder{
-  margin-left: 150px;
-  margin-top: 130px;
-}
-//image of hangman
-#picHolder{
-  margin-left: 30px;
-  width: 75px;
-  float: left;
-  overflow: hidden;
-}
-// show letters that has been guessed
-#guesses{
-  margin-top: 20px;
-  margin-left: 150px;
-}
-#picHolder img{
-  position: relative;
-}
-//will inform player if win or lose
-#answer{
-  margin-top: 20px;
-  margin-left: 150px;
-  font-size: 35px;
-  color: whitesmoke;
-}
-//where letters displayed
-.pattern{
-  background-color: white;
-  text-align: center;
-  font-size: 24px;
-  color: black;
-  padding-top: 5px;
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-  float: left;
-}
-//player has finished all the words
-#message{
-  color: black;
-  font-size: 40px;
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  margin-top: 100px;
-}
-//tester
-#fake{
-  position: absolute;
-  top: 0px;
-  left: 200px;
-}
