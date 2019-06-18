@@ -75,3 +75,19 @@ let setupAnswerArray = function (word) {
   let updateGameState = function (guess, word, answerArray) {
   // shows how many times the guess appears in the word so lettersRemaining can be updated
   };
+  let showAnswerCongratulatePlayer = function (answerArray) {
+    // Use alert to show the answer and congratulate the player
+    };
+    while (lettersRemaining > 0) {
+    showPlayerProgress(answerArray);
+    let guess = getGuess();
+    if (guess === null) {
+    break;
+  } else if (guess.length !== 1) {
+    alert("Enter a single letter.");
+    } else {
+    var correctGuesses = updateGameState(guess, word, answerArray);
+    lettersRemaining -= correctGuesses;
+    }
+    }
+    showAnswerCongratulatePlayer(answerArray);
